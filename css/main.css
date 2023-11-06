@@ -35,3 +35,50 @@ video {
   block-size: auto;
   vertical-align: middle;
 }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  margin: 25px;
+  text-transform: uppercase;
+}
+
+marquee {
+  background-color: #fdf2f4;
+  padding: 5px 0;
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+  animation: defilement 15s infinite linear;
+  overflow: hidden;
+}
+
+@keyframes param {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
