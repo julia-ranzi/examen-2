@@ -29,6 +29,10 @@ a {
   color: inherit;
 }
 
+.logo {
+  text-align: center;
+}
+
 img,
 video {
   max-inline-size: 100%;
@@ -47,27 +51,38 @@ a {
   text-transform: uppercase;
 }
 
-marquee {
-  background-color: #fdf2f4;
-  padding: 5px 0;
-  color: #000;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 100;
-  line-height: normal;
-  text-transform: uppercase;
-  display: inline-block;
-  white-space: nowrap;
-  animation: defilement 15s infinite linear;
+.marquee {
+  height: 56px;
+
   overflow: hidden;
+  position: relative;
+  background-color: #fdf2f4;
 }
 
-@keyframes param {
+.marquee p {
+  display: block;
+  width: 200%;
+  height: 50px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 15s linear infinite;
+
+  font-size: 36px;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
   0% {
-    transform: translate(0, 0);
+    left: 0;
   }
   100% {
-    transform: translate(-100%, 0);
+    left: -100%;
   }
 }
 
