@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <title>SoulSlices</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -42,7 +48,7 @@
       <div class="row">
         <div class="col-12 col-lg-8 offset-lg-2">
           <h2>De pain à pain à main dans la main</h2>
-          <p>
+          <p class="concept">
             Sur le principe du speed dating, mais à l’aide de tartines. Chaque
             tartine est associée à des centres d’intérêts et permet de proposer
             à nos clients des rencontres surprenantes en dégustant d’excellentes
@@ -60,7 +66,7 @@
         <div class="col-6 col-lg-3">
           <img src="img/mediterraneenne.png" alt="la tartine méditerranéenne" />
           <h3>La méditerranéenne</h3>
-          <p>
+          <p class="products">
             Tartine ensoleillée avec du houmous, des olives, des tomates séchées
             au soleil et du basilic frais.
           </p>
@@ -68,7 +74,7 @@
         <div class="col-6 col-lg-3">
           <img src="img/romantique.png" alt="la tartine romantique" />
           <h3>La romantique</h3>
-          <p>
+          <p class="products">
             Une tartine légère et délicate avec des ingrédients doux comme la
             figue, le fromage de chèvre et le miel.
           </p>
@@ -76,7 +82,7 @@
         <div class="col-6 col-lg-3">
           <img src="img/aventureuse.png" alt="la tartine aventureuse" />
           <h3>L'aventureuse</h3>
-          <p>
+          <p class="products">
             Une tartine audacieuse et épicée avec du chorizo, du piment, et de
             l'avocat.
           </p>
@@ -84,25 +90,29 @@
         <div class="col-6 col-lg-3">
           <img src="img/anti-deprime.png" alt="la tartine anti-deprime" />
           <h3>L'anti-déprime</h3>
-          <p>
+          <p class="products">
             Tartine avec triple dose de chocolat accompagné de ses fraises et de
             double crème.
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-12">les favoris</div>
+        <div class="col-12">
+          <h2>Tartines du moment</h2>
+        </div>
       </div>
       <div class="row">
         <div class="col-6 col-lg-3">
           <img src="img/gags-grenade.png" alt="la tartine anti-deprime" />
           <h3>Gags à la grenade</h3>
-          <p>Un cocktail explosif de saveurs qui vous fait exploser de rire.</p>
+          <p class="products">
+            Un cocktail explosif de saveurs qui vous fait exploser de rire.
+          </p>
         </div>
         <div class="col-6 col-lg-3">
           <img src="img/love-potion.png" alt="la tartine anti-deprime" />
           <h3>La love potion</h3>
-          <p>
+          <p class="products">
             Un mélange mystérieux de saveurs sucrées et fruitées pour susciter
             l'amour.
           </p>
@@ -110,28 +120,32 @@
         <div class="col-6 col-lg-3">
           <img src="img/enigmatique.png" alt="la tartine anti-deprime" />
           <h3>L'énigmatique</h3>
-          <p>Laisse toi surprendre par la vie.</p>
+          <p class="products">Laisse toi surprendre par la vie.</p>
         </div>
         <div class="col-6 col-lg-3">
           <img src="img/epaule-en-soie.png" alt="la tartine anti-deprime" />
           <h3>Epaule en soie</h3>
-          <p>
+          <p class="products">
             Un mélange doux et apaisant de saveurs conçu pour vous offrir une
             épaule sur laquelle pleurer et trouver du réconfort.
           </p>
         </div>
       </div>
       <div class="row">
-        <button class="col-12">bouton cartes</button>
+        <div class="col-12 container-button">
+          <button>carte complète</button>
+        </div>
       </div>
       <div class="row">
-        <button class="col-12">bouton réservations</button>
+        <div class="col-12 container-button">
+          <button class="reservations">réservations</button>
+        </div>
       </div>
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 col-lg-6">
-          <p>
+        <div class="col-12 col-lg-6 contact">
+          <p class="horaires">
             lun-ven 19h-00h<br />
             sam 19h-02h<br />
             dim fermé
@@ -147,10 +161,11 @@
           <img src="img/icon-instagram.svg" alt="l'icône instagram" />
           <img src="img/icon-facebook.svg" alt="l'icône facebook" />
         </div>
-        <div class="col-12 col-lg-6">
+        <hr />
+        <div class="col-12 col-lg-6 newsletter">
           <h2>newsletter</h2>
-          <p>ne rate aucune occasion de pecho</p>
-          <p>monemail@gmail.com</p>
+          <p class="occasion-pecho">ne rate aucune occasion de pecho</p>
+          <p class="monmail">monemail@gmail.com</p>
           <button>Je m'inscris ;)</button>
         </div>
       </div>
