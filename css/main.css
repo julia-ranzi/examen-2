@@ -25,7 +25,8 @@ body {
   line-height: 1.25;
   background-image: url(../img/heart-header.png);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: 102% 1%;
+  background-size: 82%;
 }
 
 .logo {
@@ -117,6 +118,7 @@ button {
 .reservations {
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 50px;
 }
 
 .horaires {
@@ -129,6 +131,14 @@ button {
   font-weight: 400;
   line-height: normal;
   text-align: left;
+}
+.contact a {
+  text-transform: lowercase;
+  font-size: 20px;
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
 }
 
 .contact p {
@@ -201,4 +211,11 @@ hr {
   text-align: center;
   margin-top: 25px;
   text-decoration: underline;
+}
+
+.reservations-cartes {
+  background-image: url(../img/heart-footer.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 7% 10%;
 }
