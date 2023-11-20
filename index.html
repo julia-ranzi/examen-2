@@ -19,10 +19,10 @@
         <div class="row">
           <div class="col-12">
             <nav>
-              <a>events</a>
-              <a>cartes</a>
-              <a>réservations</a>
-              <a>contact</a>
+              <a href="#">events</a>
+              <a href="#cartes">cartes</a>
+              <a href="#reservations">réservations</a>
+              <a href="#contact">contact</a>
             </nav>
           </div>
         </div>
@@ -131,14 +131,16 @@
         <div class="row">
           <div class="col-12">
             <div class="container-button">
-              <button>carte complète</button>
+              <button id="cartes">carte complète</button>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
             <div class="container-button">
-              <button class="reservations">réservations</button>
+              <button class="reservations" id="reservations">
+                réservations
+              </button>
             </div>
           </div>
         </div>
@@ -146,8 +148,8 @@
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 col-lg-6">
-          <div class="contact">
+        <div class="col-6 offset-3 col-lg-6 order-lg-1 offset-lg-0">
+          <div class="contact" id="contact">
             <p class="horaires">
               lun-ven 19h-00h<br />
               sam 19h-02h<br />
@@ -161,12 +163,21 @@
               <a href="tel:0041266601234">+41 26 660 12 34</a>
               <a href="mailto:info@soulslices.ch">info@soulslices.ch</a>
             </div>
-            <img src="img/icon-instagram.svg" alt="l'icône instagram" />
-            <img src="img/icon-facebook.svg" alt="l'icône facebook" />
+            <div class="icon-container">
+              <a href="https://www.instagram.com/soul_slices/" target="_blank">
+                <img src="img/icon-instagram.svg" alt="l'icône instagram" />
+              </a>
+              <a
+                href="https://www.facebook.com/soulslicesocial/"
+                target="_blank"
+              >
+                <img src="img/icon-facebook.svg" alt="l'icône facebook" />
+              </a>
+            </div>
           </div>
         </div>
         <hr />
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 order-lg-2">
           <div class="newsletter">
             <h2>newsletter</h2>
             <p class="occasion-pecho">ne rate aucune occasion de pecho</p>
